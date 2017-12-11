@@ -1,4 +1,4 @@
-package es.miyoda.mvn;
+package es.miyoda.mvn.templated;
 
 import java.io.File;
 import java.io.IOException;

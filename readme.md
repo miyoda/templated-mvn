@@ -10,7 +10,7 @@ Add the dependency in you "pom.xml":
   <build>
     <plugins>
       <plugin>
-        <groupId>es.miyoda.mvn</groupId>
+        <groupId>es.miyoda</groupId>
         <artifactId>templated-maven-plugin</artifactId>
         <version>1.0-SNAPSHOT</version>
       </plugin>
@@ -25,7 +25,7 @@ You must define in your "pom.xml" file with your templated reposiotories source 
   <build>
     <plugins>
       <plugin>
-        <groupId>es.miyoda.mvn</groupId>
+        <groupId>es.miyoda</groupId>
         <artifactId>templated-maven-plugin</artifactId>
         <version>1.0-SNAPSHOT</version>
         <configuration>
@@ -46,7 +46,7 @@ Automate the execution in any maven goal:
   <build>
     <plugins>
       <plugin>
-        <groupId>es.miyoda.mvn</groupId>
+        <groupId>es.miyoda</groupId>
         <artifactId>templated-maven-plugin</artifactId>
         <version>1.0-SNAPSHOT</version>
         <executions>
